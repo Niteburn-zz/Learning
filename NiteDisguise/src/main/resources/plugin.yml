@@ -1,0 +1,6 @@
+name: NiteDisguise
+version: ${project.version}
+main: com.nitecell.nitedisguise.NiteDisguise
+api-version: 1.13
+authors: [Nitecell]
+description: Disguise Plugin for Learning!
