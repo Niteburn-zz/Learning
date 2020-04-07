@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="NiteDisguise" />
         <module name="NitePunishments" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="NiteDisguise" target="1.8" />
+      <module name="NiteEssentials" target="1.8" />
       <module name="NitePunishments" target="1.8" />
     </bytecodeTargetLevel>
   </component>

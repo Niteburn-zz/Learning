@@ -18,7 +18,7 @@ public class UnbanCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if (!sender.hasPermission("nitepunishments.ban")) {
+        if (!sender.hasPermission("nitepunishments.unban")) {
             sender.sendMessage(ChatColor.RED + "You do not have permission for this command.");
             return true;
         }

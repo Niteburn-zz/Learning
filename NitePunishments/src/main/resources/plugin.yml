@@ -10,8 +10,20 @@ commands:
     usage: /<command>
     aliases: [boot]
     description: Kick Command
+  ban:
+    usage: /<command>
+    description: Ban Command
+  unban:
+    usage: /<command>
+    description: Unban Command
 
 permissions:
   nitepunishments.kick:
     description: This permission gives access to the kick command.
+    default: op
+  nitepunishments.ban:
+    description: This permission gives access to the ban command.
+    default: op
+  nitepunishments.unban:
+    description: This permission gives access to the unban command.
     default: op
